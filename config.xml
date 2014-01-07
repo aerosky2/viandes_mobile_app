@@ -2,8 +2,8 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id = "com.ep@tice.porc-001"
-        version = "1.0.4">
+       id = "com.ep@tice.leporc-001"
+        version = "1.01.14">
 
     <name>Le porc dans tous ses états</name>
 
