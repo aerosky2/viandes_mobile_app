@@ -1,0 +1,83 @@
+
+/*je charge les polices fontsquirrel: 1) télécharger les polices 2 sélectiuonner l'onglet webfont 3) sélectionner les polices précédemment choisies et downloadées
+5) récupérer le zip 6) récupérer le contenu di fichier css et le coller dans le notre  7)stocker le repe des polices sur notre srv et faire le lien vers ces police
+dans le font face ci dessous*/
+@font-face {
+    font-family: '2dumbregular';
+    src: url('../webfont/2dumb-webfont.eot');
+    src: url('../webfont/2dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfont/2dumb-webfont.woff') format('woff'),
+         url('../webfont/2dumb-webfont.ttf') format('truetype'),
+         url('../webfont/2dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('../webfont/3dumb-webfont.eot');
+    src: url('../webfont/3dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfont/3dumb-webfont.woff') format('woff'),
+         url('../webfont/3dumb-webfont.ttf') format('truetype'),
+         url('../webfont/3dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*je cache par défaut le logo qui sera affiché par un fadeIn au chargement*/
+#logo
+{
+display:;
+}
+ .mediacontainer
+	 {
+	 width:100%;
+	 height:0%;
+	 padding-bottom:56.25%; 
+	 overflow:hidden;
+	 position:relative;
+	 }
+.mediacontainer iframe
+	 {
+	 position:absolute;
+	 width:100%!important;
+	 height:100%!important;
+	 top:0;
+	 left:0;
+	 }
+
+/*style appliqué aux listes "aaplications culinaires*/
+#fondliste
+{
+background-color:khaki; 
+box-shadow:-webkit-box-shadow:  5px 5px 3px 2px #000000;
+box-shadow:  5px 5px 3px 2px #000000;
+color: black;
+border-radius:5px;
+padding:8px;
+}
+ p.center
+ {
+ text-align:center;
+ }
+ p.center img
+ {
+ max-width:100%;
+ }
+.centrer 
+{
+text-align:center;
+}
+#intro2
+{
+font:3dumpregular;
+}
+/*style le porc dans tous ses états  les p qui ont une classe intro et qui sont dans le header*/
+[data-role="header"] p.intro 
+{
+font-size: 1.2em; text-align:center; color:#FF33CC;
+
+text-shadow: 3px 3px 5px #0a0a0a;
+        filter: dropshadow(color=#0a0a0a, offx=3, offy=3);
+}

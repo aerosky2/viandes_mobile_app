@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.ep@tice.porc-001"
+        version = "1.0.4">
+
+    <name>Le porc dans tous ses états</name>
+
+    <description>
+        Une application pour les élèves des lycées hôteliers destinée à offrir une activité d'apprentissage concernant la reconnaissance et la localisation des morceaux de la viande porc.
+    </description>
+
+    <author href="http://www.mediafood.org/tice-pro" email="cbvmmb@gmail.com">
+        Benoit Martinet  Ep@tice: Enseignement professonnel assisté par les TICE
+    </author>
+	<icon src="images/icone.png" height="114" width="114"/>
+</widget>
+
+  
